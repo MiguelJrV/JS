@@ -1,5 +1,6 @@
  
  
+ 
  var numero = prompt('Introduce tu numero:')
  
  
@@ -16,7 +17,6 @@ if (esPar(numero)) {
 }
 
 //primer ejercicio
-
 
 
 
@@ -37,7 +37,7 @@ if (persona.Profesion === 'programador') {
 }
 
 if (persona.EstadoCivil === 'soltero') {
-    console.log('¡Disfruta tu soltería!');
+    persona.EstadoFavorito = '¡Disfruta tu soltería!';
 }
 
 
@@ -51,7 +51,7 @@ console.log(persona)
 
 
 
- estudiante = {
+ let estudiante = {
 
     nombre : prompt('Introduce tu nombre:'),
     edad : parseInt(prompt('Introduce tu edad:')),
